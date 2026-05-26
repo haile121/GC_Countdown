@@ -36,13 +36,23 @@ async def daily_job(context) -> None:
 
 
 def main() -> None:
+    import os
+    from telegram.ext import JobQueue
     config = load_config()
 
-    app = (
-        Application.builder()
-        .token(config.bot_token)
-        .build()
-    )
+    builder = Application.builder().token(config.bot_token)
+
+    proxy_url = os.environ.get("PROXY_URL", "")
+    if proxy_url:
+        from telegram.request import HTTPXRequest
+        builder = builder.request(HTTPXRequest(proxy=proxy_url))
+        logger.info("Using proxy: %s", proxy_url)
+
+    app = builder.build()
+
+    if app.job_queue is None:
+        logger.error("JobQueue is not available. Make sure 'python-telegram-bot[job-queue]' is installed.")
+        raise RuntimeError("JobQueue unavailable")
 
     # Store shared state in bot_data
     app.bot_data["config"] = config
