@@ -3,7 +3,7 @@ import sys
 import logging
 from dataclasses import dataclass, field
 from datetime import date
-
+.k
 from dotenv import load_dotenv
 
 load_dotenv()
