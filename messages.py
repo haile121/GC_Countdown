@@ -15,7 +15,7 @@ FUNNY_MESSAGES: list[str] = [
     "Why do IS students never get lost? They always follow the network topology.",
     "My thesis is like a legacy system: nobody understands it, but it somehow still runs.",
     "I don't always test my code, but when I do, I do it in production.",
-    "An IS student's diet: coffee, Stack Overflow, and existential dread.",
+    "An IS student's diet: coffee, Chat Gpt, and existential dread.",
     "Why did the IS student stare at the orange juice? The box said 'concentrate'.",
     "Our group project has more merge conflicts than a highway at rush hour.",
     "I finally understood recursion. I finally understood recursion. I finally understood recursion.",
