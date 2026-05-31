@@ -13,7 +13,7 @@ FUNNY_MESSAGES: list[str] = [
     "I asked my professor for help. He said: 'Have you tried turning it off and on again?'",
     "IS students don't have bugs, we have 'undocumented features'.",
     "Why do IS students never get lost? They always follow the network topology.",
-    "My thesis is like a legacy system: nobody understands it, but it somehow still runs.",
+    "Real drama is having a feature that's totally not working… and your evaluator's be like, Can you show me that one? ",
     "I don't always test my code, but when I do, I do it in production.",
     "An IS student's diet: coffee, Chat Gpt, and existential dread.",
     "Why did the IS student stare at the orange juice? The box said 'concentrate'.",
