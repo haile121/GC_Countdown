@@ -5,15 +5,8 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 FUNNY_MESSAGES: list[str] = [
-    "Why do IS students make great chefs? They know how to handle NULL values in their recipes.",
-    "An IS student's love life: 'It's complicated' — just like their ER diagrams.",
-    "I told my database I loved it. It said: 'ERROR: Relationship not found.'",
-    "Why did the IS student break up with Excel? Too many unresolved dependencies.",
-    "Our ERP system has more modules than I have brain cells — and both crash regularly.",
-    "I asked my professor for help. He said: 'Have you tried turning it off and on again?'",
-    "IS students don't have bugs, we have 'undocumented features'.",
-    "Why do IS students never get lost? They always follow the network topology.",
     "Real drama is having a feature that's totally not working… and your evaluator's be like, Can you show me that one? ",
+    "My GPA and my RAM have one thing in common: never enough.",
     "I don't always test my code, but when I do, I do it in production.",
     "An IS student's diet: coffee, Chat Gpt, and existential dread.",
     "Why did the IS student stare at the orange juice? The box said 'concentrate'.",
@@ -35,19 +28,17 @@ FUNNY_MESSAGES: list[str] = [
     "I asked the IT support guy for help. He asked me to describe my problem. I said: 'Where do I start?'",
     "IS students don't age — we just get deprecated.",
     "Why did the IS student cross the road? To optimize the shortest path algorithm.",
-    "My GPA and my RAM have one thing in common: never enough.",
+    "Why do IS students make great chefs? They know how to handle NULL values in their recipes.",
+    "An IS student's love life: 'It's complicated' — just like their ER diagrams.",
+    "I told my database I loved it. It said: 'ERROR: Relationship not found.'",
+    "Why did the IS student break up with Excel? Too many unresolved dependencies.",
+    "Our ERP system has more modules than I have brain cells — and both crash regularly.",
+    "I asked my professor for help. He said: 'Have you tried turning it off and on again?'",
+    "IS students don't have bugs, we have 'undocumented features'.",
+    "Why do IS students never get lost? They always follow the network topology.",
 ]
 
 INSPIRATIONAL_MESSAGES: list[str] = [
-    "Every line of code you've written is a step closer to the career you've been building.",
-    "Systems fail, but IS graduates adapt — that's your superpower.",
-    "You've debugged harder problems than this. Graduation is just the final deployment.",
-    "The knowledge you've gained isn't stored in RAM — it's permanent.",
-    "Every database you've designed has taught you to structure your future.",
-    "You didn't come this far to only come this far. Keep pushing.",
-    "The best systems are built by people who never stop learning — that's you.",
-    "Your degree is the architecture; your career is the implementation.",
-    "Information Systems taught you to solve problems. Life is just a bigger problem set.",
     "You've survived group projects, finals, and legacy code. You can survive anything.",
     "The finish line is in sight. Don't stop now — the system is almost deployed.",
     "Every challenge you've faced has been a feature, not a bug, in your growth.",
@@ -70,6 +61,15 @@ INSPIRATIONAL_MESSAGES: list[str] = [
     "Your potential is not limited by your current resources. Scale up.",
     "The world needs people who understand both technology and humanity. That's exactly you.",
     "Graduation is your go-live date. The system is ready. Deploy with confidence.",
+    "Every line of code you've written is a step closer to the career you've been building.",
+    "Systems fail, but IS graduates adapt — that's your superpower.",
+    "You've debugged harder problems than this. Graduation is just the final deployment.",
+    "The knowledge you've gained isn't stored in RAM — it's permanent.",
+    "Every database you've designed has taught you to structure your future.",
+    "You didn't come this far to only come this far. Keep pushing.",
+    "The best systems are built by people who never stop learning — that's you.",
+    "Your degree is the architecture; your career is the implementation.",
+    "Information Systems taught you to solve problems. Life is just a bigger problem set.",
 ]
 
 
