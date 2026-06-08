@@ -59,8 +59,8 @@ def compose_daily_message(
         day_word = "day" if countdown == 1 else "days"
         bar_line = _progress_bar(countdown)
         header = (
-            f"📈 *Progress:* {bar_line}\n"
             f"🎓 *{countdown} {day_word} left until Graduation\\!*\n"
+            f"📈 *Progress:* {bar_line}\n"
         )
         celebration = ""
 
