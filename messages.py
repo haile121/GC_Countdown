@@ -5,13 +5,6 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 FUNNY_MESSAGES: list[str] = [
-    "Real drama is having a feature that's totally not working… and your evaluator's be like, Can you show me that one? ",
-    "My GPA and my RAM have one thing in common: never enough.",
-    "I don't always test my code, but when I do, I do it in production.",
-    "An IS student's diet: coffee, Chat Gpt, and existential dread.",
-    "Why did the IS student stare at the orange juice? The box said 'concentrate'.",
-    "Our group project has more merge conflicts than a highway at rush hour.",
-    "I finally understood recursion. I finally understood recursion. I finally understood recursion.",
     "Why do IS students make bad secret keepers? They always normalize everything.",
     "My code works perfectly — on my machine. Shipping my machine.",
     "IS students don't sleep, they enter low-power mode.",
@@ -36,16 +29,16 @@ FUNNY_MESSAGES: list[str] = [
     "I asked my professor for help. He said: 'Have you tried turning it off and on again?'",
     "IS students don't have bugs, we have 'undocumented features'.",
     "Why do IS students never get lost? They always follow the network topology.",
+    "Real drama is having a feature that's totally not working… and your evaluator's be like, Can you show me that one? ",
+    "My GPA and my RAM have one thing in common: never enough.",
+    "I don't always test my code, but when I do, I do it in production.",
+    "An IS student's diet: coffee, Chat Gpt, and existential dread.",
+    "Why did the IS student stare at the orange juice? The box said 'concentrate'.",
+    "Our group project has more merge conflicts than a highway at rush hour.",
+    "I finally understood recursion. I finally understood recursion. I finally understood recursion.",
 ]
 
 INSPIRATIONAL_MESSAGES: list[str] = [
-    "You've survived group projects, finals, and legacy code. You can survive anything.",
-    "The finish line is in sight. Don't stop now — the system is almost deployed.",
-    "Every challenge you've faced has been a feature, not a bug, in your growth.",
-    "You are the bridge between technology and people — the world needs that.",
-    "Your hard work is compiling. The output is a bright future.",
-    "IS graduates don't just use technology — they shape it.",
-    "The skills you've built are your most valuable assets. Invest in them daily.",
     "You've learned to think in systems. Now go build a better one.",
     "Graduation isn't the end of learning — it's the beginning of applying it.",
     "Every late night studying was an investment with a guaranteed return.",
@@ -70,6 +63,13 @@ INSPIRATIONAL_MESSAGES: list[str] = [
     "The best systems are built by people who never stop learning — that's you.",
     "Your degree is the architecture; your career is the implementation.",
     "Information Systems taught you to solve problems. Life is just a bigger problem set.",
+    "You've survived group projects, finals, and legacy code. You can survive anything.",
+    "The finish line is in sight. Don't stop now — the system is almost deployed.",
+    "Every challenge you've faced has been a feature, not a bug, in your growth.",
+    "You are the bridge between technology and people — the world needs that.",
+    "Your hard work is compiling. The output is a bright future.",
+    "IS graduates don't just use technology — they shape it.",
+    "The skills you've built are your most valuable assets. Invest in them daily.",
 ]
 
 
