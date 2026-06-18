@@ -5,17 +5,7 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 FUNNY_MESSAGES: list[str] = [
-    "Why do IS students make bad secret keepers? They always normalize everything.",
-    "My code works perfectly — on my machine. Shipping my machine.",
-    "IS students don't sleep, they enter low-power mode.",
-    "Why did the IS student fail the cooking class? Kept trying to JOIN the ingredients.",
-    "I have 99 problems and a missing semicolon is definitely one of them.",
-    "Our professor said 'think outside the box'. I said 'which box — the server or the VM?'",
-    "Why do IS students make great detectives? They always trace the stack.",
-    "I named my Wi-Fi 'Graduation' so my laptop is always connected to the goal.",
-    "IS students don't procrastinate — we just implement lazy evaluation.",
-    "Why did the IS student bring a ladder to class? To reach the cloud.",
-    "My study notes are so well-indexed, even Google is jealous.",
+    "Today you are sitting not for an exam, but to turn your hard work, the sleepless nights and the prayers of your family into a great success. I wish that everything you have read and labored over will be memorized today at the right time, that your mind will be enlightened and that your mouse will show only the right answer. GOOD LUCK!",
     "IS students don't have nightmares, we have infinite loops.",
     "Why do IS students love the beach? Excellent bandwidth and no firewall.",
     "I asked the IT support guy for help. He asked me to describe my problem. I said: 'Where do I start?'",
@@ -36,12 +26,22 @@ FUNNY_MESSAGES: list[str] = [
     "Why did the IS student stare at the orange juice? The box said 'concentrate'.",
     "Our group project has more merge conflicts than a highway at rush hour.",
     "I finally understood recursion. I finally understood recursion. I finally understood recursion.",
+    "Why do IS students make bad secret keepers? They always normalize everything.",
+    "My code works perfectly — on my machine. Shipping my machine.",
+    "IS students don't sleep, they enter low-power mode.",
+    "Why did the IS student fail the cooking class? Kept trying to JOIN the ingredients.",
+    "I have 99 problems and a missing semicolon is definitely one of them.",
+    "Our professor said 'think outside the box'. I said 'which box — the server or the VM?'",
+    "Why do IS students make great detectives? They always trace the stack.",
+    "I named my Wi-Fi 'Graduation' so my laptop is always connected to the goal.",
+    "IS students don't procrastinate — we just implement lazy evaluation.",
+    "Why did the IS student bring a ladder to class? To reach the cloud.",
 ]
 
 INSPIRATIONAL_MESSAGES: list[str] = [
+    "Every late night studying was an investment with a guaranteed return.",
     "You've learned to think in systems. Now go build a better one.",
     "Graduation isn't the end of learning — it's the beginning of applying it.",
-    "Every late night studying was an investment with a guaranteed return.",
     "You are more capable than any system you've ever designed.",
     "The world is full of problems waiting for an IS graduate to solve them.",
     "Your journey through IS has prepared you for challenges you haven't even imagined yet.",
