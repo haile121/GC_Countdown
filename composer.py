@@ -65,7 +65,7 @@ def compose_daily_message(
         celebration = ""
 
     funny_section = (
-        "\n😁 *Laugh of the Day:*\n"
+        "\n✍ *Message from Yehualashet H \\- Rep\\. @2018 :*\n"
         f"_{_escape(funny)}_"
     )
 
