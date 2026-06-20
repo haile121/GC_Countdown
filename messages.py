@@ -5,7 +5,6 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 FUNNY_MESSAGES: list[str] = [
-    "Today you are sitting not for an exam, but to turn your hard work, the sleepless nights and the prayers of your family into a great success. I wish that everything you have read and labored over will be memorized today at the right time, that your mind will be enlightened and that your mouse will show only the right answer. GOOD LUCK!",
     "IS students don't have nightmares, we have infinite loops.",
     "Why do IS students love the beach? Excellent bandwidth and no firewall.",
     "I asked the IT support guy for help. He asked me to describe my problem. I said: 'Where do I start?'",
@@ -36,15 +35,15 @@ FUNNY_MESSAGES: list[str] = [
     "I named my Wi-Fi 'Graduation' so my laptop is always connected to the goal.",
     "IS students don't procrastinate — we just implement lazy evaluation.",
     "Why did the IS student bring a ladder to class? To reach the cloud.",
+    "My code works. I have no idea why."
 ]
 
 INSPIRATIONAL_MESSAGES: list[str] = [
-    "Every late night studying was an investment with a guaranteed return.",
+    "Every problem you've solved has upgraded the person you're becoming.",
     "You've learned to think in systems. Now go build a better one.",
     "Graduation isn't the end of learning — it's the beginning of applying it.",
     "You are more capable than any system you've ever designed.",
     "The world is full of problems waiting for an IS graduate to solve them.",
-    "Your journey through IS has prepared you for challenges you haven't even imagined yet.",
     "Success is just a well-executed project plan — and you've been planning this for years.",
     "You've mastered the art of turning complexity into clarity. That's rare.",
     "The best is yet to come. Your graduation is just version 1.0.",
@@ -69,6 +68,7 @@ INSPIRATIONAL_MESSAGES: list[str] = [
     "You are the bridge between technology and people — the world needs that.",
     "Your hard work is compiling. The output is a bright future.",
     "IS graduates don't just use technology — they shape it.",
+    "Every late night studying was an investment with a guaranteed return.",
     "The skills you've built are your most valuable assets. Invest in them daily.",
 ]
 
