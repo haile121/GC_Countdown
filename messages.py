@@ -5,10 +5,6 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 FUNNY_MESSAGES: list[str] = [
-    "IS students don't have nightmares, we have infinite loops.",
-    "Why do IS students love the beach? Excellent bandwidth and no firewall.",
-    "I asked the IT support guy for help. He asked me to describe my problem. I said: 'Where do I start?'",
-    "IS students don't age — we just get deprecated.",
     "Why did the IS student cross the road? To optimize the shortest path algorithm.",
     "Why do IS students make great chefs? They know how to handle NULL values in their recipes.",
     "An IS student's love life: 'It's complicated' — just like their ER diagrams.",
@@ -36,6 +32,10 @@ FUNNY_MESSAGES: list[str] = [
     "IS students don't procrastinate — we just implement lazy evaluation.",
     "Why did the IS student bring a ladder to class? To reach the cloud.",
     "My code works. I have no idea why."
+    "IS students don't have nightmares, we have infinite loops.",
+    "Why do IS students love the beach? Excellent bandwidth and no firewall.",
+    "I asked the IT support guy for help. He asked me to describe my problem. I said: 'Where do I start?'",
+    "IS students don't age — we just get deprecated.",
 ]
 
 INSPIRATIONAL_MESSAGES: list[str] = [
