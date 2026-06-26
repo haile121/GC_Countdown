@@ -5,6 +5,7 @@ from pathlib import Path
 logger = logging.getLogger(__name__)
 
 FUNNY_MESSAGES: list[str] = [
+    "Why do IS students love coffee? It helps them process their transactions.",
     "Why did the IS student bring a flashlight to the database lab? To find the missing foreign key.",
     "IS students don't panic under pressure; we just call it 'real-time processing'.",
     "Why did the IS student cross the road? To optimize the shortest path algorithm.",
@@ -41,6 +42,7 @@ FUNNY_MESSAGES: list[str] = [
 ]
 
 INSPIRATIONAL_MESSAGES: list[str] = [
+    "We entered as strangers with dreams. We leave as graduates with memories, friendships, and endless possibilities.",
     "Progress isn't measured by perfection; it's measured by how far you've come.",
     "Your future career starts with the knowledge you've already earned and the courage to keep learning.",
     "Every problem you've solved has upgraded the person you're becoming.",
