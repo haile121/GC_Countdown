@@ -46,13 +46,10 @@ def compose_daily_message(
 
     if status == "today":
         bar_line = _progress_bar(0)
-        header = (
+        return (
             "🎓 *TODAY IS GRADUATION DAY\\!* 🎓\n\n"
-            f"📊 *Progress:* {bar_line}\n"
-            "*Days to Graduation:* 0 days\n"
-        )
-        celebration = (
-            "\n\n🎉 *Congratulations, IS graduates\\!* "
+            f"📊 *Progress:* {bar_line}\n\n"
+            "🎉 *Congratulations, IS graduates\\!* "
             "You made it\\! Time to celebrate\\! 🥳"
         )
     else:
@@ -62,7 +59,6 @@ def compose_daily_message(
             f"🎓 *{countdown} {day_word} left until Graduation\\!*\n"
             f"📈 *Progress:* {bar_line}\n"
         )
-        celebration = ""
 
     funny_section = (
         "\n😁 *Laugh of the Day:*\n"
@@ -74,4 +70,4 @@ def compose_daily_message(
         f"_{_escape(inspirational)}_"
     )
 
-    return header + funny_section + inspirational_section + celebration
+    return header + funny_section + inspirational_section
