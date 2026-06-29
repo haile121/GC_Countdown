@@ -28,6 +28,11 @@ async def daily_job(context) -> None:
     countdown = days_until_graduation(today, config.graduation_date)
     status = graduation_status(today, config.graduation_date)
 
+    # Stop posting after graduation day
+    if status == "after":
+        logger.info("Graduation has passed. Skipping daily message.")
+        return
+
     funny = funny_cycler.next()
     inspirational = inspirational_cycler.next()
 
